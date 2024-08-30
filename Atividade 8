@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro n1, n2
+    caracter opcao
+    escreva ("digite um numero\n")
+    leia(n1)
+    escreva ("digite um segundo numero\n") 
+    leia (n2)
+    se(n1 > n2){
+      escreva("É maior")
+    }
+    senao se (n1 < n2){
+      escreva ("É menor")
+    }
+    senao se(n1 == n2){
+      escreva ("É igual")
+    }
+  }
+}
