@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+    escreva ("Qual sua idade?\n")
+    leia(idade)
+    se(idade >= 18){
+      escreva ("Maior de idade")
+    } senao{
+      se(idade >= 12){
+        escreva ("Adolescente, ew")
+      } senao{
+        escreva ("Você é criança :P")
+      }
+    }
+  }
+}
